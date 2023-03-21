@@ -12,9 +12,6 @@
 </head>
 <body>
     <div class="container mt-5">
-    	<div class="alert alert-success mb-4" role="alert">
-            ${msg}
-         </div>
         <div class="mb-3">
             <a href="lister">
                 <button type="button" class="btn btn-primary">Lister Les Produits</button>
