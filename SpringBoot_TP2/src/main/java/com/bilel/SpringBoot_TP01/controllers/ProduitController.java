@@ -20,7 +20,7 @@ import com.bilel.SpringBoot_TP01.services.ProduitService;
 public class ProduitController {
 	
 	@Autowired
-	ProduitService produitsService;
+	private ProduitService produitsService;
 	
 	@GetMapping("/create")
 	public String createProduitPage() {
